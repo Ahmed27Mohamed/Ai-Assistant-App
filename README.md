@@ -24,24 +24,6 @@ Snappy AI behaves like a real Egyptian friend — conversational, contextual, pe
 
 ---
 
-# 📸 Screenshots
-
-> Add your app screenshots inside a folder named `screenshots/` in your repository.
-
-### 💬 Chat Interface
-![Chat Screen](screenshots/chat.png)
-
-### 🎤 Voice Input
-![Voice Input](screenshots/voice.png)
-
-### 🧠 Smart Memory Example
-![Memory System](screenshots/memory.png)
-
-### ⚙ Settings Screen
-![Settings](screenshots/settings.png)
-
----
-
 # 🚀 Key Features
 
 ## 🧠 1. Smart Memory System (Persistent AI Memory)
