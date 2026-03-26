@@ -2,6 +2,9 @@
 
 **Production-Level Android AI Chat Application built with Kotlin + MVVM + Firebase + Gemini AI**
 
+🔗 **Live on Google Play**  
+https://play.google.com/store/apps/details?id=com.chatai.snappy
+
 ---
 
 ## 📱 Overview
