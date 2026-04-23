@@ -1,6 +1,6 @@
 # 🤖 Snappy AI – Smart Egyptian AI Assistant
 
-**Production-Level Android AI Chat Application built with Kotlin + MVVM + Firebase + Gemini AI**
+**Production-Level Android AI Chat Application built with Kotlin + MVVM + Firebase + Gemini AI + Purchases-In-App**
 
 🔗 **Live on Google Play**  
 https://play.google.com/store/apps/details?id=com.chatai.snappy
@@ -9,16 +9,18 @@ https://play.google.com/store/apps/details?id=com.chatai.snappy
 
 ## 📱 Overview
 
-Snappy AI is a production-ready Android AI assistant application designed to provide a natural Egyptian Arabic conversational experience.
+Snappy AI is a production-ready Android AI assistant designed to simulate a real Egyptian friend with natural conversation, memory, voice interaction, and full offline-first support.
 
 ### The app integrates:
 
 - 🔥 Google Gemini AI (gemini-2.5-flash-lite)
+- 🧠 Persistent AI Memory System
 - 🗣 Speech-to-Text (Google Cloud STT)
-- 🔊 Text-to-Speech (Speechify TTS)
-- ☁ Firebase Authentication + Realtime Database
-- 💾 Room Database (Offline Support)
-- 🧠 Smart Persistent Memory System
+- 🔊 Multi Voice & Multi Dialect TTS System
+- 💾 Room + Firebase Hybrid Storage
+- 💳 Google Play In-App Purchases (Premium System)
+- 📡 Offline-First Chat Experience
+- 🎨 Fully custom UI/UX system
 
 Snappy AI behaves like a real Egyptian friend — conversational, contextual, personalized, and memory-aware.
 
@@ -47,12 +49,12 @@ The assistant intelligently remembers:
 
 If a user says:
 
-> "أنا من اسكندرية وبحب القهاوي"
+> "أنا من اسكندرية وبحب كرة القدم"
 
 The assistant:
 
 - Saves Alexandria as governorate
-- Saves cafés as interest
+- Saves football as interest
 - Later recommends places accordingly
 
 ---
@@ -100,6 +102,9 @@ Snappy AI includes a scalable subscription-ready architecture.
 - Priority response generation
 - Future advanced AI features
 - Ad-free experience
+✔ Fully integrated with Google Play Billing Library
+✔ Secure entitlement system
+✔ Server-less monetization architecture
 
 ### 🔧 Technical Implementation
 
@@ -108,9 +113,7 @@ Snappy AI includes a scalable subscription-ready architecture.
 - `free`
 - `premium`
 - Ready for integration with:
-- Vodafone Cash / Etisalat Cash / Orange Cash / We Pay
-- Paymob
-- Paypal
+- Purchases-In-App
 
 The architecture is already structured to support feature-gating based on subscription type.
 
@@ -146,8 +149,20 @@ Stores:
 - Settings (AI name)
 
 Features:
-- Seamless fallback when offline
-- Syncs when connection is restored
+- Full chat history available offline
+- Room Database caching
+- Seamless sync when online returns
+- Users can continue conversations without internet
+
+---
+
+👤 6. User Profile System (New)
+
+Users can:
+- Change profile picture
+- Edit name
+- Update personal info
+- Sync changes with Firebase in real-time
 
 ---
 
@@ -191,6 +206,7 @@ Features:
 | AI Model | Google Gemini 2.5 Flash Lite |
 | TTS | Speechify |
 | STT | Google Cloud Speech-to-Text |
+| Billing | Google Play In-App Purchases |
 | Networking | OkHttp |
 | Concurrency | Kotlin Coroutines |
 
