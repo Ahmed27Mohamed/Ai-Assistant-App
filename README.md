@@ -294,6 +294,7 @@ Android Developer | KMP | CMP
 
 ✔ Production-Level  
 ✔ Cloud-Synced  
+✔ Monetized (Google Play Billing)
 ✔ Voice Enabled  
 ✔ Memory-Aware AI  
 ✔ CV-Ready Showcase Project
